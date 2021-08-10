@@ -1,6 +1,8 @@
 name: Quote of the day
 
 on:
+  schedule:
+    - cron: "22 20 * * 1-5"
   workflow_dispatch:
     
 jobs:
